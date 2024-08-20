@@ -1,0 +1,69 @@
+Data Type Summary
+
+// Primitive Data Type
+
+There are 7 Primitive Data Type:
+
+1. Number
+2. String 
+3. Boolean 
+4. BigInt
+5. Null
+6. Undefined
+7. Symbol //The unique value --> just like id
+
+
+const numb = 100;
+const nam = "Muhammad Fahad";
+const booleaN = true/false;
+const bigNum = 27937921873192739812739173981723n;
+const nuLL;
+const undefinED;
+
+//Both are not same because create them unique value through the symbol data Type
+const id = Symbol("123"); 
+const anotherId = Symbol("123");
+
+
+// Reference Data Type or Non-Primitive Data Type
+
+There are 3 Non-Primitive Data Type
+
+1. Array
+2. Objects
+3. Functions
+
+
+//Array
+const studentName = ["Muhammad Fahad", "Muhammad Fawad", "Muhammad"]
+
+
+
+//Objects
+let studentDetails {
+    name: "Muhammad Fahad",
+    age: 22,
+    martialStatus: "Single",
+    student-or-not: "Student",
+    height: 5.4
+}
+
+
+
+//Functions
+//1st Way of writing Function
+function ( ) {
+
+}
+
+
+//2nd Way of writing Function
+const myFunction = function ( ) {
+    console.log("ABC");
+}
+
+
+//HOw to check data types
+//through this method typeof we can check datatype of any Data
+
+console.log(typeof ....);

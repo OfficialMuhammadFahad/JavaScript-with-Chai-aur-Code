@@ -31,7 +31,7 @@ console.log(typeof stringNum);
 let numbeR = 10
 
 let negnumbeR = - numbeR
-console.log(negnumbeR); //Gives negative number
+console.log(negnumbeR); //Gives negative number //-10
 
 
 
@@ -53,7 +53,7 @@ let num1 , num2 , num3;
 
 num1 = num2 = num3 = 2 * 4;
 
-console.log(num1);
+console.log(num1); //8
 
 
 
@@ -61,6 +61,6 @@ console.log(num1);
 let numCounter = 1089;
 // Two ways to write this
 // Pre fix and post fix like Pre increment and post increment
-numCounter++ 
-++numCounter 
+numCounter++ //Post increment
+++numCounter //Pre increment
 console.log(numCounter);
