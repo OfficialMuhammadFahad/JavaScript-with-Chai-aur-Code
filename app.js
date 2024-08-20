@@ -1,1 +1,1 @@
-alert("File Working");
+console.log("File Working");
