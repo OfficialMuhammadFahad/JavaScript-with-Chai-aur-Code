@@ -24,3 +24,43 @@ let stringNum = String(num)
 console.log(typeof stringNum);
 
 
+
+//**************************************Operations******************************************************
+
+
+let numbeR = 10
+
+let negnumbeR = - numbeR
+console.log(negnumbeR); //Gives negative number
+
+
+
+
+
+console.log(2**3);// 2 power 3 //8
+console.log(2+2);//4
+console.log(2-2);//0
+console.log(2*2);//4
+console.log(2/2);//1
+console.log(2%2); //0
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32
+
+
+
+
+let num1 , num2 , num3;
+
+num1 = num2 = num3 = 2 * 4;
+
+console.log(num1);
+
+
+
+
+let numCounter = 1089;
+// Two ways to write this
+// Pre fix and post fix like Pre increment and post increment
+numCounter++ 
+++numCounter 
+console.log(numCounter);
