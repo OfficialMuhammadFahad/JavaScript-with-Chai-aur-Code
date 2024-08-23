@@ -29,7 +29,7 @@
 
 const minNum = 1;
 const maxNum = 6;
-console.log(Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum);
+console.log(Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum); //Random numbers between 1 to 6
 
 
 
