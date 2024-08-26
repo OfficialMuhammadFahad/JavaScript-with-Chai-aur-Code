@@ -25,12 +25,37 @@ console.log(typeof newArr);
 //Slice and Splice
 
 console.log(arr2);
-let newArr2 = arr2.slice(2, 6);//Pick the required elements and show the elements in dublicate array and main array is same
+let newArr2 = arr2.slice(2, 6);//Pick the required elements and show the elements in dublicate array and original array is same
 console.log(newArr2);
 
 console.log(arr2);
-let newArr3 = arr2.splice(0, 2);//Pick the required elements and modify the main array
+let newArr3 = arr2.splice(0, 2);//Pick the required elements and original the main array
 console.log(newArr3);
 console.log(arr2);
 
 
+var array1 = [1, 2, 3, 4, 5, 6];
+var array2 = ["a", "b", "c", "d", "e", "f"];
+array1.push(array2);//In this situation add complete array on the last index just like nested array also change in original array
+console.log(array1);
+
+
+var arrAy = array1.concat(array2);//In this situation add complete array on the last index and give new array
+console.log(arrAy);
+
+
+var fruits = ["Apple", "Banana", "Cherries", "Date" ];
+var vegitables = ["LadyFinger", "Cucumber", "Onion", "Potato"];
+var mixSalad = [...fruits, ...vegitables];//Combine all arrays in one array called spread method sign is(...)
+console.log(mixSalad);
+
+
+var numbers = [1, 2, 3, 4, [5, 6, 7, 8, 9, 10], 11, 12, 13, 14, 15, [16, 17, 18, [19, 20, 21, 22]], 23, 24, 25];
+var sequenceNumbers = numbers.flat(Infinity);//Combine all the nested arrays
+console.log(sequenceNumbers);
+
+let score1 = 25;
+let score2 = 15;
+let score3 = 10;
+
+console.log(Array.of(score1, score2, score3));//Convert all variables into array
