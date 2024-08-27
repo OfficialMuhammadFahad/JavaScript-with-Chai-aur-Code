@@ -29,14 +29,13 @@ let newArr2 = arr2.slice(2, 6);//Pick the required elements and show the element
 console.log(newArr2);
 
 console.log(arr2);
-let newArr3 = arr2.splice(0, 2);//Pick the required elements and original the main array
-console.log(newArr3);
+let newArr3 = arr2.splice(0, 2);//Pick the required elements and modify the original array
 console.log(arr2);
 
 
 var array1 = [1, 2, 3, 4, 5, 6];
 var array2 = ["a", "b", "c", "d", "e", "f"];
-array1.push(array2);//In this situation add complete array on the last index just like nested array also change in original array
+array1.push(array2);//In this situation complete array on the last index just like nested array also change in original array
 console.log(array1);
 
 
