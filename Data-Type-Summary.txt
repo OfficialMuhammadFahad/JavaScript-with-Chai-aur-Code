@@ -11,6 +11,8 @@ There are 7 Primitive Data Type:
 5. Null
 6. Undefined
 7. Symbol //The unique value --> just like id
+8. Object
+9. Float
 
 
 const numb = 100;
@@ -19,6 +21,8 @@ const booleaN = true/false;
 const bigNum = 27937921873192739812739173981723n;
 const nuLL;
 const undefinED;
+const null; -->Null is an object datatype
+const numbe = 1.001 -->Float
 
 //Both are not same because create them unique value through the symbol data Type
 const id = Symbol("123"); 
@@ -63,7 +67,7 @@ const myFunction = function ( ) {
 }
 
 
-//HOw to check data types
+//How to check data types
 //through this method typeof we can check datatype of any Data
 
 console.log(typeof ....);

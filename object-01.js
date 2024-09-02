@@ -24,6 +24,7 @@ const jsUsers = {
     familyDetails: undefined,
     familyContacts: null,
     [sym]: "Symbol-01" //When you use symbol type from array use this syntax
+    
 }
 
 console.log(jsUsers.familyContacts);//That's not the right way
@@ -40,17 +41,6 @@ Object.freeze(jsUsers)//Freeze stop the user to changing in object
 jsUsers.lastLoggedIn = ["Monday", "Tuesday", "Thursday", "Saturday"];
 
 console.log(jsUsers);
-
-jsUsers.greeting = function(){
-    console.log("Hey Everyone");
-}
-
-jsUsers.greetingTwo = function(){
-    console.log(`Hey Dear ${this.name}`);
-}
-
-console.log(jsUsers.greeting());
-console.log(jsUsers.greetingTwo());
 
 
 

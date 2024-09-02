@@ -27,7 +27,7 @@ const userDetails = {
     age: 22,
 }
 
-console.log(userDetails.userName.userFullName); //Through the dot (.) we can access the nested objects
+console.log(userDetails.userName.userFullName); //Through the dot notation (.) we can access the nested objects
 
 
 const object01 = {
@@ -40,7 +40,7 @@ const object02 = {
     4: "d"
 };
 
-const object03 = Object.assign(object01, object02)//Combine two or more objects together
+const object03 = Object.assign(object01, object02)//assign Combine two or more objects together
 const object04 = Object.assign({}, object01, object02)//This empty {} brackets also do same things but it's for good practice
 const object05 = {...object01, ...object02}//This is also a way to combine two or more objects together
 console.log(object03);
@@ -50,5 +50,6 @@ console.log(object05);
 console.log(Object.keys(userDetails));//Give all the keys of an object
 console.log(Object.values(userDetails));//Give all the keys values of an object
 
-console.log(userDetails.hasOwnProperty('userFullName'));//Check the userFullName property in userDetails object and answer is in boolean form true or false
+console.log(userDetails.hasOwnProperty('userFullName'));//Check the userFullName keys in userDetails object and answer is in boolean form true or false
+console.log(userDetails.hasOwnProperty('userName'));//Check the userFullName keys in userDetails object and answer is in boolean form true or false
 

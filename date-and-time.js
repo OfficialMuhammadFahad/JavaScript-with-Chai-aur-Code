@@ -25,9 +25,9 @@ console.log(Math.floor(myDate.getTime()/1000));
 
 //Comparsion always in mini seconds
 
-console.log(`Today is ${myDate.getDay()}th day and date is ${myDate.toLocaleDateString()}`); //Today is 5th day and date is 8/23/2024
+console.log(`Today is ${myDate.getDay()} day and date is ${myDate.toLocaleDateString()}`); //Today is 5th day and date is 8/23/2024
 
 
 console.log(myDate.toLocaleString("default", {
-    weekday: "short",//Three Properties Short/ Long/ Narrow //The answer of every value is Fri/ Friday/ F
+    weekday: "long",//Three Properties Short/ Long/ Narrow //The answer of every value is Fri/ Friday/ F
 }));

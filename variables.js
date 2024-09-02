@@ -8,7 +8,7 @@ let martialStatus;
 firstName = "Fahad"
 lastName = "Muhammad"
 martialStatus = "Single"
-//idCardNumber = 42101 // const never change
+idCardNumber = 42101 // const never change
 
 
 console.table([firstName, lastName, idCardNumber, address, martialStatus ]);
